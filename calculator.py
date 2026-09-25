@@ -1,6 +1,10 @@
 def add(a, b):
     return a + b
 
+def add(a, b):
+    """Return the sum of two numbers."""
+    return a + b
+
 def main():
     while True:
         print("\n=== Calculator Master ===")
