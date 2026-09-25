@@ -20,3 +20,7 @@ own feature branch and merged into main.
 - Input validation for non-numeric entries
 - Division-by-zero handling
 - Continuous execution until exit
+
+## Sample Screenshot
+
+<img width="768" height="867" alt="image" src="https://github.com/user-attachments/assets/66246d37-ba77-4fc3-b5b7-9daddcf584e2" />
