@@ -1,3 +1,10 @@
+"""
+Calculator Master
+Author: Jeanric Kiel Galino
+Course: ITNT415
+Section: BIT41
+"""
+
 def add(a, b):
     """Return the sum of two numbers."""
     return a + b
