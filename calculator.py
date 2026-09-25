@@ -3,6 +3,11 @@ def add(a, b):
     return a + b
 
 
+def subtract(a, b):
+    """Return the difference between two numbers."""
+    return a - b
+
+
 def main():
     while True:
         print("\n=== Calculator Master ===")
@@ -28,7 +33,7 @@ def main():
             if choice == "1":
                 print(f"Result: {add(num1, num2)}")
             elif choice == "2":
-                print(f"Result: {num1 - num2}")
+                print(f"Result: {subtract(num1, num2)}")
             elif choice == "3":
                 print(f"Result: {num1 * num2}")
             elif choice == "4":
