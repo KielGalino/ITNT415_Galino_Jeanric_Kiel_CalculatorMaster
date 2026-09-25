@@ -1,3 +1,6 @@
+def add(a, b):
+    return a + b
+
 def main():
     while True:
         print("\n=== Calculator Master ===")
@@ -21,7 +24,7 @@ def main():
                 continue
 
             if choice == "1":
-                print(f"Result: {num1 + num2}")
+                print(f"Result: {add(num1, num2)}")
             elif choice == "2":
                 print(f"Result: {num1 - num2}")
             elif choice == "3":
