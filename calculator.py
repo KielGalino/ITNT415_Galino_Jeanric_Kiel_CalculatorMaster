@@ -8,6 +8,9 @@ def subtract(a, b):
     return a - b
 
 
+def multiply(a, b):
+    return a * b
+
 def main():
     while True:
         print("\n=== Calculator Master ===")
@@ -35,7 +38,7 @@ def main():
             elif choice == "2":
                 print(f"Result: {subtract(num1, num2)}")
             elif choice == "3":
-                print(f"Result: {num1 * num2}")
+                print(f"Result: {multiply(num1, num2)}")
             elif choice == "4":
                 try:
                     print(f"Result: {num1 / num2}")
