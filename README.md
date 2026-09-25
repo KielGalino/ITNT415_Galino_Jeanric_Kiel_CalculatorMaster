@@ -1,1 +1,1 @@
-# -ITNT415_Galino_Jeanric_Kiel_CalculatorMaster
+# ITNT415_Galino_Jeanric_Kiel_CalculatorMaster
