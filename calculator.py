@@ -12,6 +12,11 @@ def multiply(a, b):
     """Return the product of two numbers."""
     return a * b
 
+
+def divide(a, b):
+    """Return the quotient of two numbers."""
+    return a / b
+
 def main():
     while True:
         print("\n=== Calculator Master ===")
@@ -42,7 +47,7 @@ def main():
                 print(f"Result: {multiply(num1, num2)}")
             elif choice == "4":
                 try:
-                    print(f"Result: {num1 / num2}")
+                    print(f"Result: {divide(num1, num2)}")
                 except ZeroDivisionError:
                     print("Error: Cannot divide by zero.")
         else:
